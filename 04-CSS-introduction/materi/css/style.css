@@ -1,0 +1,15 @@
+.judul1{
+    text-align: center;
+    color: brown;
+}
+.judul2{
+    color:chocolate
+}
+/* titik untuk pemanggilan class css, class itu bisa dipanggil beberapa kali*/ 
+#paragraf1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#paragraf2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* # untuk pemanggilan id, sifatnya unik, hanya bisa digunakan satu kali */

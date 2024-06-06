@@ -1,0 +1,20 @@
+#box1 {
+    border-width: 1px;
+    border-style:solid;
+    border-color: blue;
+    margin-bottom: 50px;
+    padding-top: 3px;
+}
+
+#box2 {
+    border-width: 3px;
+    border-color: blue;
+    border-style: solid;
+
+    width: 20px;
+    height: 50%;
+    /* persen sifatnya dinamis, berubah sesuai ukuran layar
+    px sifatnya statis, tidak terpengaruh ukuran layar
+    
+    persen itu nilainya lebih besar dari px*/
+}

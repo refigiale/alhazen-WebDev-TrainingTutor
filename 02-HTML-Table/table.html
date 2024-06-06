@@ -1,0 +1,62 @@
+<html>
+    <head><title>Belajar table</title></head>
+    <body>
+        <h1>Belajar Table</h1>
+        <table border="1">
+            <thead>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Refina</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Kazen</td>
+                    <td>1 SMP</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Kazeners</td>
+                    <td>4 SMP</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr><td>Catatan:</td></tr>
+            </tfoot>
+        </table>
+<br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">Nama</th>
+                    <th colspan="2">TTL</th>
+                    <!-- rowspan untuk gabung baris
+                    colspan untuk gabung kolom -->
+                </tr>
+                <tr>
+                    <th>Tempat Lahir</th>
+                    <th>Tanggal Lahir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Refina</td>
+                    <td>Solo</td>
+                    <td>29</td>
+                </tr>
+            </tbody>
+            <tfoot align="left">
+                <tr>
+                    <td colspan="4">Catatan:</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
